@@ -1,0 +1,36 @@
+/*
+  Localizable.strings
+  Scrumdinger
+
+  Created by Damiano Pellegrini on 18/04/22.
+  
+*/
+
+"Add" = "Aggiungi";
+"Done" = "Fatto";
+"Edit" = "Modifica";
+"Cancel" = "Annulla";
+"Dismiss" = "Scarta";
+"Daily Scrums" = "Riunioni Giornaliere";
+"Meeting Info" = "Info Riunione";
+"Start Meeting" = "Inizia Riunione";
+"Title" = "Titolo";
+"Length" = "Durata";
+"Theme" = "Tema";
+"Attendees" = "Partecipanti";
+"History" = "Storico";
+"No meetings yet" = "Ancora nessuna riunione";
+"New Attendee" = "Nuovo Partecipante";
+"Transcript" = "Trascritto";
+"Seconds Elapsed" = "Secondi Mancanti";
+"Seconds Remaining" = "Secondi Rimanenti";
+"is speaking" = "sta presentando";
+"Someone" = "Qualcuno";
+"Last Speaker" = "Ultimo Presentatore";
+"No more speakers" = "Non ci sono più presentatori";
+"Speaker %lld of %lld" = "Presentatore %lld di %lld";
+
+// Accessibility
+"New Scrum" = "Nuova riunione";
+"%lld attendees" = "%lld partecipanti";
+"%lld minute meeting" = "%lld minute meeting";

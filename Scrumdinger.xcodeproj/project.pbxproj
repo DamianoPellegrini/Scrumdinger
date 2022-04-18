@@ -13,6 +13,8 @@
 		AE0573B228060D3F00F618C8 /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0573B128060D3F00F618C8 /* SpeakerArc.swift */; };
 		AE0573B42806116D00F618C8 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0573B32806116D00F618C8 /* SpeechRecognizer.swift */; };
 		AE0573B62806131E00F618C8 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0573B52806131E00F618C8 /* HistoryView.swift */; };
+		AEA1B4B4280D6B9100979DBF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEA1B4B6280D6B9100979DBF /* Localizable.strings */; };
+		AEA1B4BA280D7B0300979DBF /* Plurals.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = AEA1B4BC280D7B0300979DBF /* Plurals.stringsdict */; };
 		AEDFDEEC2805EAA0003BACD4 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDFDEEB2805EAA0003BACD4 /* ScrumStore.swift */; };
 		AEE3F3842804C05B002AB54F /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE3F3832804C05B002AB54F /* ScrumdingerApp.swift */; };
 		AEE3F3862804C05B002AB54F /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE3F3852804C05B002AB54F /* MeetingView.swift */; };
@@ -43,6 +45,10 @@
 		AE0573B128060D3F00F618C8 /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
 		AE0573B32806116D00F618C8 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
 		AE0573B52806131E00F618C8 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		AEA1B4B5280D6B9100979DBF /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AEA1B4B7280D6B9600979DBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AEA1B4BB280D7B0300979DBF /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = it; path = it.lproj/Plurals.stringsdict; sourceTree = "<group>"; };
+		AEA1B4BD280D7B0500979DBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Plurals.stringsdict; sourceTree = "<group>"; };
 		AEDFDEEB2805EAA0003BACD4 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 		AEE3F3802804C05B002AB54F /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE3F3832804C05B002AB54F /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
@@ -134,6 +140,8 @@
 			isa = PBXGroup;
 			children = (
 				AEE3F3AA2805009D002AB54F /* ding.wav */,
+				AEA1B4B6280D6B9100979DBF /* Localizable.strings */,
+				AEA1B4BC280D7B0300979DBF /* Plurals.stringsdict */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -227,7 +235,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEA1B4BA280D7B0300979DBF /* Plurals.stringsdict in Resources */,
 				AEE3F3AB2805009E002AB54F /* ding.wav in Resources */,
+				AEA1B4B4280D6B9100979DBF /* Localizable.strings in Resources */,
 				AEE3F38B2804C05C002AB54F /* Preview Assets.xcassets in Resources */,
 				AEE3F3882804C05C002AB54F /* Assets.xcassets in Resources */,
 			);
@@ -268,6 +278,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AEA1B4B6280D6B9100979DBF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEA1B4B5280D6B9100979DBF /* it */,
+				AEA1B4B7280D6B9600979DBF /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		AEA1B4BC280D7B0300979DBF /* Plurals.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEA1B4BB280D7B0300979DBF /* it */,
+				AEA1B4BD280D7B0500979DBF /* en */,
+			);
+			name = Plurals.stringsdict;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AEE3F38C2804C05C002AB54F /* Debug */ = {

@@ -1,0 +1,36 @@
+/*
+  Localizable.strings
+  Scrumdinger
+
+  Created by Damiano Pellegrini on 18/04/22.
+  
+*/
+
+"Add" = "Add";
+"Done" = "Done";
+"Edit" = "Edit";
+"Cancel" = "Cancel";
+"Dismiss" = "Dismiss";
+"Daily Scrums" = "Daily Scrums";
+"Meeting Info" = "Meeting Info";
+"Start Meeting" = "Start Meeting";
+"Title" = "Title";
+"Length" = "Length";
+"Theme" = "Theme";
+"Attendees" = "Attendees";
+"History" = "History";
+"No meetings yet" = "No meetings yet";
+"New Attendee" = "New Attendee";
+"Transcript" = "Transcript";
+"Seconds Elapsed" = "Seconds Elapsed";
+"Seconds Remaining" = "Seconds Remaining";
+"is speaking" = "is speaking";
+"Someone" = "Someone";
+"Last Speaker" = "Last Speaker";
+"No more speakers" = "No more speakers";
+"Speaker %lld of %lld" = "Speaker %lld of %lld";
+
+// Accessibility
+"New Scrum" = "New Scrum";
+"%lld attendees" = "%lld attendees";
+"%lld minute meeting" = "%lld minute meeting";

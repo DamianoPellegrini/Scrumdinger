@@ -24,7 +24,7 @@ struct DetailView: View {
                 HStack {
                     Label("Length", systemImage: "clock")
                     Spacer()
-                    Text("\(scrum.lengthInMinutes) minutes")
+                    Text("\(scrum.lengthInMinutes) minutes", tableName: "Plurals")
                 }
                 .accessibilityElement(children: .combine)
                 HStack {

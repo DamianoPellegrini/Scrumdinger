@@ -21,7 +21,7 @@ struct DetailEditView: View {
                     }
                     .accessibilityValue("\(Int(data.lengthInMinutes)) minutes")
                     Spacer()
-                    Text("\(Int(data.lengthInMinutes)) minutes")
+                    Text("\(Int(data.lengthInMinutes)) minutes", tableName: "Plurals")
                         .accessibilityHidden(true)
                 }
                 ThemePicker(selection: $data.theme)
@@ -31,7 +31,9 @@ struct DetailEditView: View {
                     Text(attendee.name)
                 }
                 .onDelete { indices in
-                    data.attendees.remove(atOffsets: indices)
+                    withAnimation {
+                        data.attendees.remove(atOffsets: indices)
+                    }
                 }
                 HStack {
                     TextField("New Attendee", text: $newAttendeeName)
